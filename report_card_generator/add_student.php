@@ -51,7 +51,7 @@ include("reportcard.php")
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $servername = "localhost";
     $username = "root";
-    $password = "Nhidalna@123";
+    $password = "";
     $database = "roles";
     $conn = mysqli_connect($servername,$username,$password,$database);
 
